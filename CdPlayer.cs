@@ -16,27 +16,27 @@ namespace FacadePattern
 
         public void On()
         {
-
+            Console.WriteLine("The cdplayer is on");
         }
         public void Off()
         {
-
+            Console.WriteLine("The cdplayer is on");
         }
         public void Eject()
         {
-
+            Console.WriteLine("The cdplayer is ejected");
         }
         public void Pause()
         {
-
+            Console.WriteLine("The cdplayer is paused");
         }
         public void Play()
         {
-
+            Console.WriteLine("The cdplayer is being palyed");
         }
         public void Stop()
         {
-
+            Console.WriteLine("The cdplayer has stopped");
         }
     }
 }

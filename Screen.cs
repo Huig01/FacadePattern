@@ -10,11 +10,11 @@ namespace FacadePattern
     {
         public void Up()
         {
-
+            Console.WriteLine("The screen is raised");
         }
         public void Down() 
         {
-        
+            Console.WriteLine("The screen is lowerd");
         }
     }
 }
